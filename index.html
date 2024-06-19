@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Estilos/geral.css" media="all">
+    <link rel="stylesheet" href="Estilos/telas.css" media="screen">
+</head>
+<body>
+    <header>
+        <p>PLANTAS & FLORES
+        </p>
+        <span>
+            <button id="info">
+                <img src="icons/info_40dp_FILL0_wght400_GRAD0_opsz40.png" alt="">
+            </button>
+            <button id="notification">
+                <img src="icons/notifications_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </button>
+            <button id="cart">
+                <img src="icons/shopping_cart_20_red.png" alt="">
+            </button>
+            
+            
+        </span>
+    </header>
+    <nav>
+        <div class="close" id="hidden" style="display: none;">
+            <span style="margin: 10px;">Os seus produtos!</span>
+            <button id="Cart_close">
+                 <img src="icons/close_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="">
+             </button>
+             <li id="items_cart" style="list-style: none; background-color: white; 
+             border-radius: 10px; text-indent: 10px; margin-top: 10px;"></li>
+             <p style="margin-top: 10px;">Total: Mzn <span id="total">0</span></p>
+             <button id="clear">
+                limpar a lista
+             </button>
+    
+        </div>  
+    </nav>
+    <main>
+        <section id="infor" style="display: none;">
+            <p>Brevemente teremos serviços de Jardinagem</p>
+        </section>
+
+        <section id="not" style="display: none">
+            <p>A altura de algumas plantas irão influenciar no preço</p>
+        </section>
+        <p>PLANTAS DE FRUTAS</p>
+        <div class="producto">
+            <img src="frutas/Morango.png" alt="">
+            <span class="name">Morangueiro</span> <br>
+            <span class="price">200.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Larangeira.png" alt="">
+            <span class="name">Larangeira</span> <br>
+            <span class="price">200.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Tangerina.png" alt="">
+            <span class="name">Árvore de Tangerina</span> <br>
+            <span class="price">200.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Maceira.png" alt="">
+            <span class="name"> Árvore de Maça</span> <br>
+            <span class="price">200.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Pera_Abacati.png" alt="">
+            <span class="name">Pera Abacati</span> <br>
+            <span class="price">160.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Acacia_vermelha.png" alt="">
+            <span class="name">Acácia vermelha</span> <br>
+            <span class="price">250.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Ata Coracao d'boi.png" alt="">
+            <span class="name">Ata coração de Boi</span> <br>
+            <span class="price">200.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Ata silvestre.png" alt="">
+            <span class="name">Ata Silvestre</span> <br>
+            <span class="price">200.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Cajueiro.png" alt="">
+            <span class="name">Cajueiro</span> <br>
+            <span class="price">250.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Tamara.png" alt="">
+            <span class="name">Támara</span> <br>
+            <span class="price">200.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="frutas/Acacia_amarela.png" alt="">
+            <span class="name">Acácia</span> <br>
+            <span class="price">250.00</span> <span>MZN</span> <br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+
+        <p>FLORES & ORNAMENTAÇÃO</p>
+        <div class="producto">
+            <img src="Flores & Orna/Cacto2_01.png" alt="">
+            <span class="name">Cacto</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/Cacto1.png" alt="">
+            <span class="name">Cacto</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/Cacto3.png" alt="">
+            <span class="name">Cacto<span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/Cacto4.png" alt="">
+            <span class="name">Cacto<span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/cacto5.png" alt="">
+            <span class="name">Cacto<span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/Cacto6.png" alt="">
+            <span class="name">Cacto<span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/Espinhas.png" alt="">
+            <span class="name">Espinhas de Cristo</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Sem nome04.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">150.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/Sem nome.png" alt="">
+            <span class="name">Cacto sem Picos</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Sem nome2.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Sem nome3.png" alt="">
+            <span class="name">-----</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Haloifera.png" alt="">
+            <span class="name">Aloi vera </span> <br>
+            <span class="price">260.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/sem nome5.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        <div class="producto">
+            <img src="Flores & Orna/Sem nome6.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Sem nome7.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/sem nome8.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Sem nome9.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Aloi vera.png" alt="">
+            <span class="name">Aloi Vera</span> <br>
+            <span class="price">260.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>  
+        <div class="producto">
+            <img src="Flores & Orna/Lingua da Sogra2.png" alt="">
+            <span class="name">Lingua da Sogra</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Untitled.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>  
+        <div class="producto">
+            <img src="Flores & Orna/Untitled1.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Untitled2.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Untitled3.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>  
+        <div class="producto">
+            <img src="Flores & Orna/Untitled4.png" alt="">
+            <span class="name">---</span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div> 
+        <div class="producto">
+            <img src="Flores & Orna/Untitled5.png" alt="">
+            <span class="name">---<span> <br>
+            <span class="price">250.00</span> <span>MZN</span><br>
+            <button class="addToCart">Adicionar ao carrinho</button>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>Conctacte-nos!🔍</p>
+        <div id="conctar">
+            <br>
+            <section>
+                <span > <img src="icons/mail_40dp_FILL0_wght400_GRAD0_opsz40.png" alt="">
+                    dinelvilanculos@gmail.com</span>
+            </section>
+            <section>
+                <span> <img src="icons/call_40dp_FILL0_wght400_GRAD0_opsz40.png" alt="">
+                    +258 848393826</span>
+            </section> <br>
+            <p>Valores de transportes não estão inclusos no preços.</p> <br>
+            <p>Powerby  <a href="https://dineliacv.github.io/Static/" target="_blank" style= "text-decoration: none; color: green; text-decoration: underline;">🔰Dinel Southman🌍</a></p>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(()=>{
+            $("#call").click(()=>{
+                alert('Os pagamentos nao podem ser realizado nessa pagina '+
+                 'pedimos que entre em conctato com os conctatos de apoio')
+            })
+
+            $('#info').click(()=>{
+                $("#infor").fadeIn(1000)
+                $("#infor").fadeOut(4000)
+            })
+
+            $("#notification").click(()=>{
+                $("#not").fadeIn(2000)
+                $("#not").fadeOut(4500)
+            })
+            $(".addToCart").mouseenter(()=>{
+                $(".addToCart").css({'background-color':'lightpink'})
+            })
+            $(".addToCart").mouseleave(()=>{
+                $(".addToCart").css({'background-color':'lightgray'})
+            })
+
+            $("#cart").click(()=>{
+                $("#cart").fadeOut(1000, ()=>{
+                $(".close").fadeIn(1200)
+                })
+            })
+            $("#Cart_close").click(()=>{
+                $(".close").fadeOut(1300,()=>{
+                    $("#cart").fadeIn(1700)
+                })
+            })
+            let cartItems = []
+            let total = 0
+
+            $(".addToCart").click(function(){
+            let price = parseFloat($(this).closest(".producto").find(".price").html());
+            let name = $(this).closest(".producto").find(".name").html();
+            cartItems.push({name, price});
+            total += price;
+            atualizarcart();
+        }); 
+            function atualizarcart(){
+            let listacart = $("#items_cart");
+            listacart.html(''); // Limpa a lista
+            cartItems.forEach(item => {
+                const lista = document.createElement('li');
+                lista.textContent = `${item.name} - Mzn ${item.price}`;
+                listacart.append(lista);
+            });
+            $("#total").html(total.toFixed(2)); // Atualiza o total
+        }
+        $("#clear").click(()=>{
+            cartItems= []
+            total = 0
+            $("#items_cart").html(' ')
+            $("#total").html('0')
+            const paragrafo = document.createElement('p')
+            paragrafo.textContent = 'Lista vazia'
+            $("#items_cart").append(paragrafo)
+        })
+        })
+    </script>
+</body>
+</html>
