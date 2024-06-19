@@ -1,0 +1,623 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Josefin;
+    src: url(../Fontes/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Corag;
+    src: url(../Fontes/Courgette/Courgette-Regular.ttf);
+}
+
+@media screen and  (max-width:339px) {
+    main > p{
+        font-size: 18px;
+    }
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+        font-size: 18px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 30px;
+    }
+    nav > div{
+        width: 250px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 30px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 275px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 275px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 34px;
+    }
+    
+}
+
+ @media screen and (min-width: 340px) and (max-width: 500px) {  
+    main > p{
+        font-size: 20px;
+    }
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+        font-size: 18px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 30px;
+    }
+    nav > div{
+        width: 250px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 30px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 325px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 325px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 34px;
+    }
+ }
+ 
+ @media screen and (min-width: 501px) and (max-width: 768px) and (Orientation: Portrait) { 
+    main > p{
+        font-size: 20px;
+    } 
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 30px;
+    }
+    nav > div{
+        width: 250px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 30px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 340px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 340px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 34px;
+    }
+ }
+
+ @media screen and (min-width: 501px) and (max-width: 768px) and (Orientation: landscape){ 
+    main > p{
+        font-size: 20px;
+    } 
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 30px;
+    }
+    nav > div{
+        width: 250px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 30px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 300px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 300px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 34px;
+    }
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 992px) { 
+    main > p{
+        font-size: 21px;
+    } 
+    body{
+        font-size: 22px;
+    }
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 40px;
+    }
+    nav > div{
+        width: 280px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 40px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 370px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 370px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 39px;
+    }
+ }
+
+ @media screen and (min-width: 993px) and (max-width: 1200px) {  
+    main > p{
+        font-size: 22px;
+    }
+    body{
+        font-size: 23px;
+    }
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 50px;
+    }
+    nav > div{
+        width: 280px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 50px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 370px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 370px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 39px;
+    }
+ }
+
+ /* Modificar a partir deste ponto*/
+ @media screen and (min-width: 1201px) and (max-width: 1440px) { 
+    main > p{
+        font-size: 23px;
+    } 
+    body{
+        font-size: 24px;
+    }
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 50px;
+    }
+    nav > div{
+        width: 280px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 50px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 450px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 450px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 39px;
+    }
+ }
+
+ @media screen and (min-width: 1441px) { 
+
+    header > p{
+        padding-top: 10px;
+        text-indent: 15px;
+    }
+    header > span{
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    header > span > button {
+        border: 0px;
+        background-color: #04280D;
+        padding-right: 10px;
+    }
+    header > span > button > img{
+        width: 50px;
+    }
+    nav > div{
+        width: 280px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+    nav > div.close > button#Cart_close > img{
+        width: 50px;
+    }
+    nav > div.close >button#clear{
+        padding: 5px;
+    }
+    main > p{
+        font-size: 25px;
+        background-color: gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    main > div.producto {
+        width: 500px;
+        border: 2px dashed;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 7px;
+        background-color: #B4BB29;
+    }
+    main > div.producto > img{
+        width: 500px;
+    }
+    main > div.produto > button{
+        width: 100px;
+        font-size: 15px;   
+    }
+    footer{
+        background-color: rgb(189, 205, 221);
+        border-radius: 10px;
+    }
+    footer > p{
+        background-color: gray;  
+        text-indent: 10px;
+    }
+    footer > div#conctar{
+        padding-left: 5px;
+    }
+    span:hover{
+        color: white; 
+    }
+    span > img{
+        width: 39px;
+    }
+ }
+
