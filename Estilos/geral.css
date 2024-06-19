@@ -5,6 +5,7 @@
     font-weight: bolder;
     margin: 0px;
     padding: 0px;
+    position: static;
 }
 @font-face {
     font-family: Josefin;
