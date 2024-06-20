@@ -78,9 +78,13 @@ span.name{
 }
 #not{
     background-color: yellowgreen;
-    width: 400px;
-    
+    width: 400px;    
 }
 button.addToCart{
     font-size: 25px;
+}
+#conctar > section > span > p{
+    white-space: normal;
+    word-wrap: break-word;
+    
 }
