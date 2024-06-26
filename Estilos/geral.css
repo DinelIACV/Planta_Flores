@@ -78,7 +78,9 @@ span.name{
 }
 #not{
     background-color: yellowgreen;
-    width: 400px;    
+    width: 400px;   
+    white-space: normal;
+    word-wrap: break-word;
 }
 button.addToCart{
     font-size: 25px;
