@@ -90,3 +90,10 @@ button.addToCart{
     word-wrap: break-word;
     
 }
+#loja{
+    text-decoration: none;
+    color: black;
+}
+#loja:hover{
+    color: white;
+}
