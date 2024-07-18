@@ -97,3 +97,8 @@ button.addToCart{
 #loja:hover{
     color: white;
 }
+#lastp{
+    padding-left: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+}
